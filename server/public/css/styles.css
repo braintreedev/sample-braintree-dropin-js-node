@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.payment-card {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 1px dashed #ccc;
+  color: #616161;
+}
+
+#checkout {
+  padding: 15px 0 20px 0;
+}
+
+img {
+  box-shadow: 10px 10px #f0f0f0;
+  width: 100%;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #e9e9e9;
+  margin: 20px 0;
+}
+
+.success {
+  color: #d96c84;
+}
+
+.error {
+  color: #b2435b;
+}
+
+.label {
+  padding-top: 9px;
+}
