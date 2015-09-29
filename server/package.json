@@ -4,7 +4,6 @@
   "description": "Braintree Dropin built with Node on the backend, with server-side rendering.",
   "main": "app.js",
   "scripts": {
-    "postinstall": "cp node_modules/purecss/build/pure-min.css public/css/pure-min.css && cp node_modules/braintree-web/dist/braintree.js public/js/braintree.js",
     "start": "node app.js",
     "test": "mocha -w app.js test/appSpec.js"
   },
